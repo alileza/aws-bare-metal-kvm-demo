@@ -12,7 +12,7 @@ kvm-ok
 echo
 echo "Installing KVM..."
 # Instalation
-sudo apt-get install qemu-kvm libvirt-bin bridge-utils virtinst -y > kvm-install.log 2>&1
+sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst -y > kvm-install.log 2>&1
 echo
 
 # Creating KVM user and adding to group
